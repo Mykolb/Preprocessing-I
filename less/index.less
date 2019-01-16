@@ -48,7 +48,24 @@ table {
 	border-spacing: 0;
 }
 
+//mixins here//
+.custom() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.custom-border() {
+	border: 1px dashed black;
+}
+
+.customer-border2() {
+	border: 3px solid red;
+}
+
+
 /* Set every element's box-sizing to border-box */
+// General Styles // 
 * {
     box-sizing: border-box;
 }
@@ -57,3 +74,82 @@ html, body {
 	height: 100%;
 }
 
+h1, h2 {
+	font-size: 1.8rem;
+}
+
+p {
+	line-height: 1.4;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+	background: bisque;
+	padding: 40px;
+;
+
+@media (max-width: 500px) {
+	background: lightseagreen;
+}
+};
+
+header {
+	display: flex;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.text-boxes {
+	.custom();
+	.customer-border2();
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.text-boxes .box1 {
+	position: relative;
+	.custom-border();
+	width:  30%;
+	height: 400px;
+
+}
+
+.text-boxes .box2 {
+	position: relative;
+	.custom-border();
+	width:  30%;
+	height: 400px;
+}
+
+.text-boxes .box3 {
+	position: relative;
+	.custom-border();
+	width:  30%;
+	height: 400px;
+}
+
+.text-boxes .box4 {
+	position: relative;
+	.custom-border();
+	width:  30%;
+	height: 400px;
+}
+
+.text-boxes .box5 {
+	position: relative;
+	.custom-border();
+	width:  30%;
+	height: 400px;
+}
+
+.text-boxes .box6 {
+	position: relative;
+	.custom-border();
+	width:  30%;
+	height: 400px;
+}
