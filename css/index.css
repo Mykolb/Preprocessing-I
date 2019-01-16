@@ -144,7 +144,7 @@ p {
 .container {
   margin: 0 auto;
   max-width: 100%;
-  background: bisque;
+  background: white;
   padding: 40px;
 }
 @media (max-width: 500px) {
@@ -154,10 +154,23 @@ p {
 }
 header {
   display: flex;
+  justify-content: center;
 }
 header nav {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding: 2%;
+  font-size: 1.5rem;
+  background-color: lightgrey;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+header nav a:hover {
+  text-decoration: underline;
+  color: white;
 }
 .text-boxes {
   display: flex;
@@ -223,6 +236,16 @@ footer nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 2%;
   font-size: 1.5rem;
+  justify-content: space-evenly;
+  background-color: lightgrey;
+}
+footer nav a {
+  color: black;
+  text-decoration: lightgrey;
+}
+footer nav a:hover {
+  text-decoration: underline;
+  color: white;
 }
