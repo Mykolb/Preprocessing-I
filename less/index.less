@@ -85,7 +85,6 @@ p {
 .container {
 	margin: 0 auto;
 	max-width: 100%;
-	background: white;
 	padding: 40px;
 ;
 
@@ -105,12 +104,11 @@ header nav {
 	justify-content: space-evenly;
 	padding: 2%;
 	font-size: 1.5rem;
-	background-color: lightgrey;
 }
 
 header nav a {
 	text-decoration: none;
-	color: black;
+	color: lightgray;
 }
 
 header nav a:hover {
@@ -118,11 +116,17 @@ header nav a:hover {
 	color: white;
 }
 
+h2 {
+	text-align: center;
+}
+
+
 .text-boxes {
 	.custom();
-	.customer-border2();
+	//.customer-border2();//
 	flex-wrap: wrap;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .text-boxes .box1 {
@@ -132,8 +136,8 @@ header nav a:hover {
 	width:  40%;
 	height: 400px;
 	margin: 2% 5% 2% 5%;
+	}
 
-}
 
 .text-boxes .box2 {
 	position: relative;
@@ -191,12 +195,11 @@ footer nav {
 	padding: 2%;
 	font-size: 1.5rem;
 	justify-content: space-evenly;
-	background-color: lightgrey;
 }
 
 footer nav a {
 	color: black;
-	text-decoration: lightgrey;
+	color: lightgray;
 }
 
 footer nav a:hover {
