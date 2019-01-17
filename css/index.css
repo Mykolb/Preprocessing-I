@@ -148,7 +148,7 @@ p {
 }
 @media (max-width: 500px) {
   .container {
-    background: lightseagreen;
+    background: url("https://media.tenor.com/images/7a98f3da9a6fc01083d5fc6689efdd30/tenor.gif");
   }
 }
 header {
@@ -162,6 +162,11 @@ header nav {
   padding: 2%;
   font-size: 1.5rem;
 }
+@media (max-width: 500px) {
+  header nav {
+    font-size: 1rem;
+  }
+}
 header nav a {
   text-decoration: none;
   color: lightgray;
@@ -174,6 +179,12 @@ h2 {
   text-align: center;
   font-weight: 200;
 }
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+}
 .text-boxes {
   display: flex;
   justify-content: center;
@@ -181,6 +192,15 @@ h2 {
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .text-boxes {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 }
 .text-boxes .box1 {
   position: relative;
@@ -192,6 +212,17 @@ h2 {
   box-shadow: 30px 20px 40px 20px lightgrey;
   line-height: 2;
 }
+@media (max-width: 500px) {
+  .text-boxes .box1 {
+    width: 100%;
+    height: 125px;
+    box-shadow: 2px 2px 2px 2px;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 3% 0% 1% 0%;
+    color: gray;
+  }
+}
 .text-boxes .box2 {
   position: relative;
   justify-content: space-evenly;
@@ -202,6 +233,15 @@ h2 {
   box-shadow: 30px 20px 40px 20px lightgray;
   line-height: 2;
 }
+@media (max-width: 500px) {
+  .text-boxes .box2 {
+    width: 100%;
+    height: 125px;
+    box-shadow: 2px 2px 2px 2px;
+    font-size: 1rem;
+    color: gray;
+  }
+}
 .text-boxes .box3 {
   position: relative;
   justify-content: space-evenly;
@@ -211,6 +251,15 @@ h2 {
   padding: 3% 5% 3% 5%;
   box-shadow: 30px 20px 40px 20px lightgrey;
   line-height: 2;
+}
+@media (max-width: 500px) {
+  .text-boxes .box3 {
+    width: 100%;
+    height: 125px;
+    box-shadow: 2px 2px 2px 2px;
+    font-size: 1rem;
+    color: gray;
+  }
 }
 .text-boxes .box3 ul {
   list-style: none;
@@ -224,6 +273,16 @@ h2 {
   padding: 3% 5% 3% 5%;
   box-shadow: 30px 20px 40px 20px lightgrey;
   line-height: 2;
+  color: gray;
+}
+@media (max-width: 500px) {
+  .text-boxes .box4 {
+    width: 100%;
+    height: 125px;
+    box-shadow: 2px 2px 2px 2px;
+    font-size: 1rem;
+    color: gray;
+  }
 }
 .text-boxes .box5 {
   position: relative;
@@ -235,6 +294,15 @@ h2 {
   box-shadow: 30px 20px 40px 20px lightgrey;
   line-height: 2;
 }
+@media (max-width: 500px) {
+  .text-boxes .box5 {
+    width: 100%;
+    height: 125px;
+    box-shadow: 2px 2px 2px 2px;
+    font-size: 1rem;
+    color: gray;
+  }
+}
 .text-boxes .box6 {
   position: relative;
   justify-content: space-evenly;
@@ -245,8 +313,22 @@ h2 {
   box-shadow: 30px 20px 40px 20px lightgrey;
   line-height: 2;
 }
+@media (max-width: 500px) {
+  .text-boxes .box6 {
+    width: 100%;
+    height: 125px;
+    box-shadow: 2px 2px 2px 2px;
+    font-size: 1rem;
+    color: gray;
+  }
+}
 ul {
   list-style-type: circle;
+}
+@media (max-width: 500px) {
+  ul {
+    display: none;
+  }
 }
 footer {
   width: 100%;
@@ -259,6 +341,11 @@ footer nav {
   padding: 2%;
   font-size: 1.5rem;
   justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  footer nav {
+    font-size: 1rem;
+  }
 }
 footer nav a {
   color: black;
