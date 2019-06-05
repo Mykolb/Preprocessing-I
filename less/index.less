@@ -63,6 +63,8 @@ table {
 	border: 3px solid red;
 }
 
+
+
 .color() {
 	color: gray;
 }
@@ -120,6 +122,14 @@ header nav a {
 	text-decoration: none;
 	color: lightgray;
 }
+
+@media (max-width: 500px) {
+	header nav a {
+		font-size: 1.5rem;
+		
+	}
+}
+
 
 header nav a:hover {
 	text-decoration: underline;
@@ -320,7 +330,8 @@ footer nav {
 
 @media (max-width: 500px) {
 	footer nav {
-		font-size: 1rem;
+		font-size: 1.5rem;
+		// display: none;
 	}
 }
 
@@ -348,6 +359,15 @@ footer nav a:hover {
 	box-shadow: 30px 20px 40px 20px lightgrey;
 }
 
+@media (max-width: 500px) {
+	.form-box {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 250px;
+	}
+}
+
 input {
 	display: flex;
 	flex-direction: column;
@@ -358,9 +378,23 @@ input {
 	border-radius: 6px;
 }
 
+@media (max-width: 500px) {
+	.input {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 .msg-input {
 	height: 200px;
 }
+
+@media (max-width: 500px) {
+	.msg-input {
+		display: none;
+	}
+}
+
 
 .btn {
 	margin-left: 45%;
@@ -369,6 +403,13 @@ input {
 	height: 25px;
 	border-radius: 5px;
 }
+
+@media (max-width: 500px) {
+	.btn {
+		width: 15%;
+	}
+}
+
 
 .btn:hover {
 	background: lavender;
