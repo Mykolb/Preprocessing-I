@@ -355,3 +355,34 @@ footer nav a:hover {
   text-decoration: underline;
   color: lavender;
 }
+.form-box {
+  margin: 5% 0% 10% 5%;
+  width: 55%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 30px 20px 40px 20px lightgrey;
+}
+input {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 2.5%;
+  border-radius: 5px;
+}
+.msg-input {
+  height: 200px;
+}
+.btn {
+  margin-left: 45%;
+  margin-top: 5%;
+  width: 10%;
+  height: 25px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: lavender;
+  color: lightgray;
+}
